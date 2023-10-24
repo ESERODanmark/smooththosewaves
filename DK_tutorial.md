@@ -3,32 +3,32 @@ Nu skal du bygge en måler til at datalogge svingninger!
 * **OBS!** Du skal bruge en @boardname@ i mindst version 2 (V2)
 
 ## Variabel 
-Opret en variabel og kald den `||variables:datalogning||`
+Opret en variabel og kald den `||variables:datalogningStatus||`
 
 ## Knap A: Tænd datalogning 
-Træk blokken `||variables:sæt datalogning til||` ind under `||input.når der trykkes på knap A||`
+Træk blokken `||variables:sæt datalogningStatus til||` ind under `||input.når der trykkes på knap A||`
 
 ```blocks
 input.onButtonPressed(Button.A, function () {
-    datalogning = 0
+    datalogningStatus = 0
 })
 ```
 
 ## Knap A: Tænd datalogning 
-* Sæt værdien af variablen `||variables:datalogning||` til 1
+* Sæt værdien af variablen `||variables:datalogningStatus||` til 1
 
 ```blocks
 input.onButtonPressed(Button.A, function () {
-    datalogning = 1
+    datalogningStatus = 1
 })
 ```
 
 ## Knap A: Skærmbillede
-Træk blokken `||basic.vis LED'er||` ind under `||variables:sæt datalogning til||` 
+Træk blokken `||basic.vis LED'er||` ind under `||variables:sæt datalogningStatus til||` 
 
 ```blocks
 input.onButtonPressed(Button.A, function () {
-    datalogning = 1
+    datalogningStatus = 1
     basic.showLeds(`
         . . . . .
         . . . . .
@@ -44,7 +44,7 @@ Tegn et symbol for at datalogningen er startet
 
 ```blocks
 input.onButtonPressed(Button.A, function () {
-    datalogning = 1
+    datalogningStatus = 1
     basic.showLeds(`
         . . . . .
         . . # . .
@@ -111,7 +111,7 @@ input.onButtonPressed(Button.B, function () {
 ```
 
 ## Knap B: Sluk datalogning
-Træk blokken `||variables:sæt datalogning til||` ind i blokken `||logic:hvis ... så||`
+Træk blokken `||variables:sæt datalogningStatus til||` ind i blokken `||logic:hvis ... så||`
 
 ```blocks
 input.onButtonPressed(Button.B, function () {
@@ -122,7 +122,7 @@ input.onButtonPressed(Button.B, function () {
 ```
 
 ## Knap B: Skærmbillede for sluk datalogning
-Træk en `||basic.vis LED'er||` blok ind under `||variables:sæt datalogning til||` 
+Træk en `||basic.vis LED'er||` blok ind under `||variables:sæt datalogningStatus til||` 
 
 ```blocks
 input.onButtonPressed(Button.B, function () {
@@ -326,7 +326,7 @@ loops.everyInterval(100, function () {
 
 
 ## Datalogning hver 100 ms
-Træk derefter variablen `||variables:datalogning||` ind i `||logic: 0 = 0 ||` blokken
+Træk derefter variablen `||variables:datalogningStatus||` ind i `||logic: 0 = 0 ||` blokken
 ```blocks
 loops.everyInterval(100, function () {
     if (datalogningStatus == 0) {
@@ -338,7 +338,7 @@ loops.everyInterval(100, function () {
 
 
 ## Datalogning hver 100 ms
-Skift værdien 0 til 1. Nu spørger programmet om `||variables:datalogning||` = 1
+Skift værdien 0 til 1. Nu spørger programmet om `||variables:datalogningStatus||` = 1
 
 ```blocks
 loops.everyInterval(100, function () {
