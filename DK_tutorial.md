@@ -1,8 +1,8 @@
-## Svingningsmåleren @showdialog
+## Svingningsmåleren @showhint
 **OBS!** Du skal bruge en @boardname@ i mindst version 2 (V2)
 ![](https://github.com/ESERODanmark/TemperaturDatalogger/blob/master/ikon_tempAlert.png?raw=true)
 
-## Svingningsmåleren @showdialog
+## Svingningsmåleren @showhint
 ![](https://github.com/ESERODanmark/multicounter/blob/master/clickTip.gif?raw=true)
 
 ## Svingningsmåleren 
