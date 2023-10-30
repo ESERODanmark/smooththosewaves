@@ -1,4 +1,4 @@
-## Svingningsmåleren @showhint
+## Svingningsmåleren @showdialog
 **OBS!** Du skal bruge en @boardname@ i mindst version 2 (V2)
 ![](https://github.com/ESERODanmark/TemperaturDatalogger/blob/master/ikon_tempAlert.png?raw=true)
 
