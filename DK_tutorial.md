@@ -1,6 +1,12 @@
-## Svingningsmåleren! 
+## Svingningsmåleren @unplugged
+**OBS!** Du skal bruge en @boardname@ i mindst version 2 (V2)
+![](https://github.com/ESERODanmark/TemperaturDatalogger/blob/master/ikon_tempAlert.png?raw=true)
+
+## Svingningsmåleren @unplugged
+![](https://github.com/ESERODanmark/smooththosewaves/blob/master/ikon_DampVibrations.png?raw=true)
+
+## Svingningsmåleren 
 Nu skal du bygge en måler til at datalogge svingninger! 
-* **OBS!** Du skal bruge en @boardname@ i mindst version 2 (V2)
 
 ## Variabel 
 Opret en variabel og kald den `||variables:datalogningStatus||`
