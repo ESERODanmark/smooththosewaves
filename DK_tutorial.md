@@ -1,9 +1,9 @@
 ## Svingningsmåleren @showdialog
+<div style="display: flex; justify-content: space-around;">
+  <img src="https://github.com/ESERODanmark/smooththosewaves/blob/master/ikon_DampVibrations_01.png?raw=true" alt="DampVibrations" width="300"/>
+  <img src="https://github.com/ESERODanmark/multicounter/blob/master/clickTip.gif?raw=true" alt="ClickTip" width="300"/>
+</div>
 **OBS!** Du skal bruge en @boardname@ i mindst version 2 (V2)
-![](https://github.com/ESERODanmark/smooththosewaves/blob/master/ikon_DampVibrations_01.png?raw=true)
-
-## Svingningsmåleren @showdialog
-![](https://github.com/ESERODanmark/multicounter/blob/master/clickTip.gif?raw=true)
 
 ## Svingningsmåleren 
 Nu skal du bygge en måler til at datalogge svingninger! 
