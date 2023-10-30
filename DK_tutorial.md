@@ -3,7 +3,7 @@
 ![](https://github.com/ESERODanmark/TemperaturDatalogger/blob/master/ikon_tempAlert.png?raw=true)
 
 ## Svingningsmåleren @unplugged
-![](https://github.com/ESERODanmark/smooththosewaves/blob/master/ikon_DampVibrations.png?raw=true)
+![](https://github.com/ESERODanmark/multicounter/blob/master/clickTip.gif?raw=true)
 
 ## Svingningsmåleren 
 Nu skal du bygge en måler til at datalogge svingninger! 
