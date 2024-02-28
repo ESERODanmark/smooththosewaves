@@ -35,7 +35,7 @@ input.onButtonPressed(Button.B, function () {
         basic.clearScreen()
     }
 })
-loops.everyInterval(100, function () {
+loops.everyInterval(20, function () {
     if (datalogningStatus == 1) {
         datalogger.log(datalogger.createCV("Acceleration", input.acceleration(Dimension.Strength)))
     }
