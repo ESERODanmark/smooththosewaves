@@ -6,7 +6,7 @@
   </div>
 
 ## Vibrationsmåler
-Nu skal du bygge en måler til at datalogge svingninger! 
+Nu skal du bygge en måler til at datalogge vibrationer! 
 
 ## Variabel 
 Opret en variabel og kald den `||variables:datalogningStatus||`
